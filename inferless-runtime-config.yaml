@@ -2,8 +2,12 @@ build:
   system_packages:
     - "ffmpeg"
   python_packages:
-    - "ffmpeg-python"
+    - "accelerate==0.27.2"
     - "ffmpeg"
-    - "transformers"
-    - "accelerate"
-    - "torch"
+    - "ffmpeg-python"
+    - "numpy==1.26.4"
+    - "requests==2.31.0"
+    - "scipy==1.12.0"
+    - "torch==2.2.0"
+    - "transformers==4.37.2"
+    - "git+https://github.com/m-bain/whisperx.git@e906be9688334b4ae7d3a23f69734ac901a255ee"
