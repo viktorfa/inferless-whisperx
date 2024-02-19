@@ -11,7 +11,7 @@ configuration:
   gpu_type: T4
   inference_time: '850'
   is_dedicated: false
-  is_serverless: true
+  is_serverless: false
   max_replica: '1'
   min_replica: '0'
   scale_down_delay: '10'
