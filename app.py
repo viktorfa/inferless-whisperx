@@ -38,7 +38,7 @@ class InferlessPythonModel:
         asr_result = self.model.transcribe(audio_np)
         logger.log("Inference")
 
-        return {"transcribed_output": asr_result}
+        return {"transcribed_output": json.dumps(asr_result)}
 
     def finalize(self):
         pass
